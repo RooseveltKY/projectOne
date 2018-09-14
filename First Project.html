@@ -1,0 +1,63 @@
+<html>
+  <head>
+  <style>
+  
+  #title {
+    font-size: 45px;
+    font-family: sans-serif;
+    color: black;
+  }
+ #left {
+  float: left;
+  margin-top: 30px;
+  width: 30%;
+  padding: 25px;
+  background-color: orange;
+  font-size:18;
+}
+
+#right {
+  float: right;
+  margin-top: 30px;
+  width: 30%;
+  padding: 25px;
+  background-color: lightblue;
+  font-size:18;
+}
+    }
+  </style>
+    <script src="project1.js"></script>
+  </head>
+    
+    <body>
+      <p id="title">Burger Menu</p>
+      <div id="left">
+        <p id="burger1name"></p>
+        <p id="burger1meat"></p>
+        <p id="burger1veg"></p>
+        <p id="burger1cheese"></p>
+        <p id="burger1extra"></p>
+        <p id="burger1sauce"></p>
+        <h1 id="burger1price"></h1>
+        <button onclick="totalOne()">Buy</button>
+      </div>
+      
+      <div id="right">
+        <p id="burger2name"></p>
+        <p id="burger2meat"></p>
+        <p id="burger2veg"></p>
+        <p id="burger2cheese"></p>
+        <p id="burger2extra"></p>
+        <p id="burger2sauce"></p>
+        <h1 id="burger2price"></h1>
+        <button onclick="totalTwo()">Buy</button>
+      </div>
+      
+      
+    <script>
+    populate();
+    </script>
+    
+    
+  </body>
+</html>
